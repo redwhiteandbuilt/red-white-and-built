@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact – Red White &amp; Built</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="logo">Red&nbsp;White&nbsp;&amp;&nbsp;Built</a>
+        <ul class="nav-links">
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="pricing.html">Membership</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+    <main class="contact-page container">
+        <h1>Get in Touch</h1>
+        <p>Have questions about joining the platform or want to suggest a feature? We'd love to hear from you.</p>
+        <form class="contact-form" action="#" method="post" onsubmit="event.preventDefault(); alert('Thank you! We will be in touch soon.'); this.reset();">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit" class="button primary">Send Message</button>
+        </form>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:info@redwhitebuilt.com">info@redwhitebuilt.com</a></p>
+            <p>Phone: (555) 123‑4567</p>
+            <p>Address: 123 Liberty Lane, Philadelphia, PA 19106</p>
+        </div>
+    </main>
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2025 Red White &amp; Built. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
