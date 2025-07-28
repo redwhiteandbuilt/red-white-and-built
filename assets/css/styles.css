@@ -78,7 +78,8 @@ body {
 
 /* Hero section */
 .hero {
-  background-image: url('../images/hero.png');
+  /* Updated path to hero image after uploading to the assets folder */
+  background-image: url('../hero.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
